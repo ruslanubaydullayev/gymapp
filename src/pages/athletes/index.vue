@@ -112,7 +112,6 @@ const router = useRouter()
 
 const form = ref({
   name: '',
-  gender: '',
   lend: false,
 })
 
@@ -124,16 +123,16 @@ const handleEdit = (index: number) => {
   router.push('/athletes/' + index)
 }
 
-const gender = [
-  {
-    name: 'Erkaklar',
-    value: 1,
-  },
-  {
-    name: 'Ayollar',
-    value: 2,
-  },
-]
+// const gender = [
+//   {
+//     name: 'Erkaklar',
+//     value: 1,
+//   },
+//   {
+//     name: 'Ayollar',
+//     value: 2,
+//   },
+// ]
 
 const athletesTable = [
   {
